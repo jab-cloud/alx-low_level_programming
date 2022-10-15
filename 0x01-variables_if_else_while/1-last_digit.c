@@ -1,17 +1,19 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
+/* more-random number to the variable*/
 
-/* betty style doc for function main goes there */
+/* betty style doc for function main goes there */
 /**
- * main - Entry point
+ * main - entry point
  *
  * Return: Always 0
- */
+ *
+ **/
 int main(void)
 {
 	int n;
+
 	int m;
 
 	srand(time(0));
@@ -19,15 +21,10 @@ int main(void)
 	/* your code goes there */
 	m = n % 10;
 	if (m > 5)
-	{
-		printf("last digit of %d is %d and is greater than 5\n", n, m);
-	}
-	else if (m == 0)
-	{
-		printf("last digit of %d is %d and is 0\n", n, m);
-	}
-	else
-	{	printf("last digit of %d is %d is less than 6 and not 0\n", n, m);
-	}
+		printf("Last digit of %dis %d and is greater than 5\n", n, m);
+	if (m == 0)
+		printf("Last digit of %d is %d and is 0\n", n, m);
+	if (m < 5 && m != 0)
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, m);
 	return (0);
 }
