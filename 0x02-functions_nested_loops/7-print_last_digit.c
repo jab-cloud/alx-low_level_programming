@@ -6,8 +6,8 @@
 */
 int print_last_digit(int a)
 {
-if (b < 0)
-b = b * -1;
-_putchar((b % 10) + '0');
-return (b % 10);
+if (a < 0)
+a = a * -1;
+_putchar((a % 10) + '0');
+return (a % 10);
 }
