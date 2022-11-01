@@ -4,7 +4,7 @@
  * print_chessboard - function that prints the chessboard
  * @a :array of pieces
  *
- * Return:void
+ * Return: void
  */
 void print_chessboard(char (*a)[8])
 {
@@ -17,7 +17,6 @@ void print_chessboard(char (*a)[8])
 		{
 			_putchar(a[b][c]);
 		}
-
 		_putchar('\n');
 
 	}
