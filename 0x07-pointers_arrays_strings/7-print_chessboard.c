@@ -4,11 +4,12 @@
  * print_chessboard - function that prints the chessboard
  * @a :array of pieces
  *
- * Return: Nothing
+ * Return:void
  */
 void print_chessboard(char (*a)[8])
 {
-	int b, c;
+	int b;
+	int c;
 
 	for (b = 0; c < 8; c++)
 	{
