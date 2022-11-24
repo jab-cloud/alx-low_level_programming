@@ -1,4 +1,5 @@
 #include "lists.h"
+
 /**
  * list_len - returns then number of elements in a list.
  * @h: singly linked list.
@@ -11,7 +12,7 @@ size_t list_len(const list_t *h)
 
 	while (h)
 	{
-		nodes += 1
+		nodes += 1;
 		h = h->next;
 	}
 	return (nodes);
